@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 350px;
+    font-family: "Kode Mono", monospace;
+    background-image: url("https://c.wallhere.com/photos/6e/f1/3679x2281_px_autumn_wallpapers_city_photos_cityscapes_landscapes_love_images_love_wallpapers_place_wallpapers-801373.jpg!d");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 700px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.main-text {
+    margin-top: 30px;
+    padding: 10px 30px;
+    padding-left: 30px;
+    text-align: center;
+    color: antiquewhite;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.box-wrapper {
+    display: flex;
+    width: 700px;
+    flex-wrap: wrap;
+    margin: 30px 27px;
+}
+
+.box-wrapper .box {
+    width: 215px;
+    height: 110px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.bg-color {
+    background-color: rgba(78, 137, 208, 0.391);
+}
+
+.bg-red{
+    background-color: rgba(240, 92, 18, 0.62);
+}
+
+.bg-yellow {
+    background-color: rgba(255, 185, 64, 0.632);
+}
+
+.bg-blue {
+    background-color: rgba(32, 15, 86, 0.732);
+}
+
+.bg-green {
+    background-color: rgba(113, 240, 85, 0.562);
+}
+
+.bg-future {
+    background-color: rgba(56, 193, 191, 0.538);
+}
